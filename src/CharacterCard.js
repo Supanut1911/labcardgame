@@ -31,9 +31,10 @@ export default class CharacterCard extends Component {
      
         let className = `card ${this.state.active ? 'activeCard' : ''}`
         return (
+   
             <div className= {className} onClick = {this.activate }>{this.props.value}
             
-            
+      
             </div>
         )
     }
