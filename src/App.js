@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div >
    
-        <WordCard value = "Nut"/>
+        <WordCard value = "supanut"/>
     
       </div>
     );

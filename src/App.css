@@ -26,6 +26,8 @@
   display: inline-block;
   text-align: center;
   width: 3em;
+  border:solid powderblue;
+
   font-size: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
@@ -33,13 +35,28 @@
  }
 
  .activeCard {
-  color: red;
-  background: pink;
+  color:cornflowerblue;
+  background:seashell;
  }
 
 .bg{
-  background-image: url(20161230152302224.jpg)
+  background-image: url(20161230152302224.jpg);
+  height : 65em;
+  }
+
+.font{
+  font-size:10em;
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue
 }
+
+.font2{
+  font-size : 2em;
+  color: beige;
+
+}
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
